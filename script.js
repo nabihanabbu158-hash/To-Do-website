@@ -23,7 +23,7 @@ function renderTodos() {
     delBtn.textContent = "X";
     delBtn.className = "delete-btn";
     delBtn.onclick = () => deleteTodo(index);
-
+//append
     li.appendChild(span);
     li.appendChild(delBtn);
     list.appendChild(li);
